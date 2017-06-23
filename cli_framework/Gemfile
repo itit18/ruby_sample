@@ -1,0 +1,18 @@
+# A sample Gemfile
+source "https://rubygems.org"
+
+gem 'thor', :require => true
+gem "mail", :require => true
+gem "systemu", :require => true
+gem 'redis', :require => true
+gem 'aws-sdk', :require => true
+gem "net-sftp"
+gem "net-ssh"
+gem 'mysql2'
+
+# テスト環境のみ
+group :development do
+  gem 'rspec', '~> 3.0'
+  gem 'pry'
+  gem 'pry-byebug'
+end

@@ -1,0 +1,18 @@
+# 各種バッチ処理で使う設定ファイル
+# TODO: config値は環境変数から受け取る方式に変更したい
+
+production:
+  general_log: "/log/general.log"
+  error_log: "/log/error.log"
+
+staging:
+  general_log: "/log/general.log"
+  error_log: "/log/error.log"
+
+develop:
+  general_log: "/log/general.log"
+  error_log: "/log/error.log"
+
+test:
+  general_log: "/log/general.log"
+  error_log: "/log/error.log"
